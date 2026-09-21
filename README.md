@@ -93,3 +93,10 @@ pom.xml
 serenity.properties
 .gitignore
 README.md
+
+### Configuración de ReqRes
+
+Antes de ejecutar las pruebas, configurar la variable de entorno:
+
+```powershell
+$env:REQRES_API_KEY="TU_API_KEY"
